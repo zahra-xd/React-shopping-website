@@ -1,0 +1,12 @@
+body {
+    background: #fff;
+}
+
+.services {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: white;
+    color: black;
+    font-size: 100px;
+}

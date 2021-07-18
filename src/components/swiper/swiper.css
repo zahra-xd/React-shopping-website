@@ -1,0 +1,141 @@
+.single_course {
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.single_course .course_head {
+    position: relative;
+    overflow: hidden;
+}
+
+.single_course .course_head img {
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.single_course .course_content {
+    padding: 30px 26px;
+    background: #f9f9ff;
+    position: relative;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.single_course .price {
+    position: absolute;
+    top: -34px;
+    right: 15px;
+    z-index: 2;
+    color: #002347;
+    display: inline-block;
+    height: 65px;
+    line-height: 65px;
+    width: 65px;
+    text-align: center;
+    border-radius: 50px;
+    background: #fdc632;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.single_course .course_content .tag {
+    padding: 2px 21px;
+    font-size: 13px;
+    color: #fff;
+    background: #002347;
+    text-transform: uppercase;
+}
+
+.single_course span {
+    color: #002347;
+    font-weight: 500;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.cl-icon {
+    color: gray;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.img-blog {
+    width: 100%;
+    height: 600px;
+}
+
+.text-slide-blog {
+    position: absolute;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.color-icon {
+    color: red;
+}
+
+.mt-8 {
+    margin-top: 70px;
+}
+
+.img-course {
+    width: 350px;
+}
+
+.text-slide-blog h3 {
+    font-size: 42px;
+    margin-bottom: 22px;
+    font-weight: bold
+}
+
+.text-slide-blog p {
+    font-size: 20px;
+}
+
+.swiper-button-prev {
+    color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #bdc5cd;
+}
+
+.swiper-button-next {
+    color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #bdc5cd;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 15px;
+}
+
+@media(max-width:430px) {
+    .text-slide-blog {
+        left: 2%;
+    }
+}

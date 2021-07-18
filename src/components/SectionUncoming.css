@@ -1,0 +1,118 @@
+.events_area {
+    padding: 130px 0 100px;
+    background: #002347;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.main_title p {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-style: italic;
+    color: gray;
+}
+
+.main_title h2 {
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.single_event {
+    margin-bottom: 30px;
+}
+
+.position-relative {
+    position: relative!important;
+}
+
+.single_event .event_thumb {
+    overflow: hidden;
+}
+
+.single_event .event_details {
+    background: rgba(0, 35, 71, .5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 275px;
+    padding: 30px 25px;
+    color: #fff;
+}
+
+.single_event .event_details .date {
+    color: #fff;
+    padding-left: 15px;
+    border-left: 2px solid #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+}
+
+.single_event .event_details .date span {
+    display: block;
+    color: #fdc632;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.single_event .event_details .time-location {
+    padding-left: 15px;
+    font-size: 14px;
+    display: flex;
+    float: right;
+}
+
+.primary-btn {
+    display: inline-block;
+    background: #fdc632;
+    padding: 0 48px;
+    color: #002347;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 50px;
+    border-radius: 5px;
+    outline: none!important;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.single_event .event_details .time-location p i {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.event-link {
+    color: #fdc632;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.single_event:hover img {
+    transform: scale(1.1);
+}
+
+@media(max-width:769px) {
+    .event_thumb img {
+        height: 430px;
+        width: 330px;
+    }
+}
+
+@media(max-width:435px) {
+    .event_thumb img {
+        height: 430px;
+        width: 550px;
+    }
+}

@@ -1,0 +1,39 @@
+    .section-bg {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 4rem 0;
+        background-image: url('./xhero_1.jpg.pagespeed.ic.FIXptzKj-f.png');
+    }
+    
+    .section-bg.style-1 {
+        position: relative;
+    }
+    
+    .section-bg.style-1:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #183661;
+        opacity: .9;
+        z-index: 0;
+    }
+    
+    .section-bg.style-1 .icon {
+        font-size: 3.5rem;
+        color: #51be78;
+    }
+    
+    .section-bg.style-1 h3 {
+        font-size: 20px;
+        color: #51be78;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+    .section-bg.style-1 p {
+        color: #7697c6;
+    }

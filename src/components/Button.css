@@ -1,0 +1,49 @@
+            .btn-sing {
+                margin-top: 26px;
+                width: 160px;
+                height: 40px;
+                color: #000;
+                text-align: center;
+                background: none;
+                border: 1px solid;
+            }
+            
+            .btn-sing:hover {
+                background: white;
+                color: red;
+                visibility: visible;
+                animation-delay: 800ms;
+                animation-name: fadeInUp;
+            }
+            
+            .btn-sing span {
+                transition: opacity 0.22s ease 0s, transform 0.22s ease 0s, color 0.22s ease 0s;
+                transform: translate3d(0, -10px, 0);
+                transition: 0.22s;
+                transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+            }
+            
+            .btn-sing:hover span {
+                opacity: 1;
+                top: 0;
+                transform: translate3d(0, 0, 0);
+            }
+            
+            @keyframes fadeInUp {
+                0% {
+                    opacity: 0;
+                    -webkit-transform: translate3d(0, 100%, 0);
+                    transform: translate3d(0, 100%, 0);
+                }
+                100% {
+                    opacity: 1;
+                    -webkit-transform: none;
+                    transform: none;
+                }
+            }
+            
+            @media(max-width:769px) {
+                .btn-sing {
+                    display: none;
+                }
+            }

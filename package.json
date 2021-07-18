@@ -1,0 +1,72 @@
+{
+    "name": "loding-react",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "^11.4.0",
+        "@fortawesome/fontawesome-svg-core": "^1.2.35",
+        "@fortawesome/free-regular-svg-icons": "^5.15.3",
+        "@fortawesome/free-solid-svg-icons": "^5.15.3",
+        "@fortawesome/react-fontawesome": "^0.1.14",
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "aio": "*",
+        "aos": "^2.3.4",
+        "axios": "^0.21.1",
+        "bootstrap": "^4.6.0",
+        "framer-motion": "^4.1.17",
+        "node-sass": "^4.14.1",
+        "react": "^17.0.2",
+        "react-awesome-reveal": "^3.8.1",
+        "react-bootstrap": "^1.6.1",
+        "react-dom": "^17.0.2",
+        "react-fontawesome": "^1.7.1",
+        "react-id-swiper": "^4.0.0",
+        "react-redux": "^7.2.4",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "^2.1.8",
+        "react-slick": "^0.28.1",
+        "react-spinners": "^0.11.0",
+        "redux": "^4.1.0",
+        "redux-devtools-extension": "^2.13.9",
+        "swiper": "^6.7.5",
+        "web-vitals": "^1.1.2"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zahra-xd/React-landing--page.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zahra-xd/React-landing--page/issues"
+    },
+    "homepage": "https://github.com/zahra-xd/React-landing--page#readme"
+}

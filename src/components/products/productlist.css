@@ -1,0 +1,27 @@
+.bggg {
+    background-color: #6991bb;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 70px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.text-course {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.text-course h2 {
+    font-size: 33px;
+    font-weight: bold
+}
+
+.t-course {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 33px;
+    font-weight: bold
+}

@@ -1,0 +1,22 @@
+.section-title-underline {
+    color: #000;
+}
+
+.section-title-underline span {
+    display: inline-block;
+    border-bottom: 4px solid #51be78;
+}
+
+.ml-auto,
+.mx-auto {
+    margin-left: auto!important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
